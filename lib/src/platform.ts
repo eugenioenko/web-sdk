@@ -8,7 +8,7 @@ export * from './platform/policy/attributes/attributes_pb.js';
 export * from './platform/policy/kasregistry/key_access_server_registry_pb.js';
 export * from './platform/policy/namespaces/namespaces_pb.js';
 export * from './platform/policy/objects_pb.js';
-export * from './platform/policy/predefined_rules_pb.js';
+export * from './platform/policy/registeredresources/registered_resources_pb.js';
 export * from './platform/policy/resourcemapping/resource_mapping_pb.js';
 export * from './platform/policy/selectors_pb.js';
 export * from './platform/policy/subjectmapping/subject_mapping_pb.js';
