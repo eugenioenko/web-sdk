@@ -46,10 +46,16 @@ export function ConnectRpcExample({ accessToken }: ConnectRpcExampleProps) {
     <>
       <fieldset>
         <legend>Connect RPC</legend>
-        <button onClick={handleWellknown}>Wellknown</button>
-        <button onClick={handleKas}>Public Key Kas</button>
-        <button onClick={handlePolicy}>Policy List Attributes</button>
-        <textarea value={result} readOnly></textarea>
+        <button id="wellknown_config" onClick={handleWellknown}>
+          Wellknown
+        </button>
+        <button id="public_kas_key" onClick={handleKas}>
+          Public Key Kas
+        </button>
+        <button id="policy_list_attr" onClick={handlePolicy}>
+          Policy List Attributes
+        </button>
+        <textarea id="connect_result" value={result} readOnly></textarea>
       </fieldset>
     </>
   );
